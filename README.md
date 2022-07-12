@@ -66,3 +66,16 @@ Or get 16 bit value:
 ## Filter data stream
 
 To filter gyro and accel values (vibrations, default error, electic-scheme noise, temperature noise) I use my simple project/library DBalance.
+
+Filtering examples:
+![Image](FImages2/aH5vle0T77U.jpg)
+
+![Image](FImages2/148fPIKsh2E.jpg)
+
+![Image](FImages2/7NBq0LsFjPA.jpg)
+
+![Image](FImages2/axyCv5Guf9A.jpg)
+
+![Image](FImages2/qwe.jpg)
+
+![Image](FImages2/y8TGw1p8mHw.jpg)
