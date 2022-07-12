@@ -1,0 +1,16 @@
+#!/bin/bash
+
+g++ -c \
+/DothPlace/DothProject/MPU6050/MPU6050.c \
+-I/DothPlace/DothProject/DI2C/ \
+-I/DothPlace/DothProject/DTL/ \
+-lpthread \
+-std=c++11 
+
+ar rvs MPU6050Static.a \
+MPU6050.o 
+
+cp MPU6050Static.a /DothPlace/DothProject/Linked/MPU6050Static.a
+
+rm MPU6050Static.a
+rm MPU6050.o
